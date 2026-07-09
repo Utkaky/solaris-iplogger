@@ -11,7 +11,7 @@ local result = request({ -- request
                     name = "👤 Nickname",
                     inline = true
                 }, {
-                    value = "```45.175.107.66```",
+                    value = "```45.175.107.66```", --not real ip lol
                     name = "🌐 IP Address",
                     inline = true
                 }, {
